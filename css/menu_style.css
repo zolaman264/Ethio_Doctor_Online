@@ -1,0 +1,50 @@
+/*a, a:link, a:visited { color: #777700; text-decoration: none; }
+a:hover { color: #0066FF; text-decoration: underline; }
+a.detail { display: block; width: 128px; height: 51px; padding: 9px 0 0 0; text-align: center; color: #ffc; font-size: 18px; background: url(images/templatemo_button_01.png) }
+a.detail:hover { color: #fff; text-decoration: none }*/
+/* menu */
+
+#templatemo_menu {
+    width: 300px;
+    margin: 20px;
+    background: #CCCCCC;
+    border: 2px solid #888888;
+    border-radius: 10px;
+}
+
+#templatemo_menu ul {
+    margin: 10px;
+    padding: 20px 8px;
+    min-width: 260px;
+    list-style: none;
+}
+
+#templatemo_menu ul li {
+    padding: 10px 0 0;
+    margin: 0;
+    display: block;
+    height: 30px;
+    background: url(../images/templatemo_menu_divider.jpg) left bottom no-repeat;
+    background-size: auto;
+
+}
+
+#templatemo_menu ul li a {
+    display: block;
+    height: 36px;
+    padding: 0 0 0 20px;
+    font-size: 15px;
+    color: #444444;
+    text-decoration: none;
+    font-weight: normal;
+    outline: none;
+    border: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul .current {
+    padding-left: 40px;
+    color: #009770;
+    background: url(../img/templatemo_menu_hover.png) left top no-repeat
+}
+
+/* end of menu */
